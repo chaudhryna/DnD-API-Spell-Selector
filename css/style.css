@@ -7,9 +7,11 @@
 }
 
 body {
+  min-height: 100%;
   background-image: url("../images/dnd.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: cover;
+  /* background-position: center; */
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,8 +20,8 @@ h1 {
 }
 
 #container {
-  margin: 10em auto;
-  max-width: 550px;
+  margin: 14em auto;
+  max-width: 600px;
   background-color: rgba(189, 195, 199, .8);
   padding: 2em 3em;
   border-radius: 12px;
